@@ -1,3 +1,5 @@
+// STACK USING ARRAY & CLASS C++
+
 #include <iostream>
 using namespace std;
 
