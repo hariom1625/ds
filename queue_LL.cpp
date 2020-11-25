@@ -62,16 +62,17 @@ void Display() {
 }
 int main() {
 
-
-
-
 #ifndef ONLINE_JUDGE
 	freopen("input.txt", "r", stdin);
 	freopen("output.txt", "w", stdout);
 #endif
 
-	enqueue(25);
-	enqueue(16);
+	int n, a;
+	cin >> n;
+	for (int i = 0; i < n; i++) {
+		cin >> a;
+		enqueue(a);
+	}
 	Display();
 
 }
